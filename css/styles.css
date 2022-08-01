@@ -6,6 +6,10 @@
   --yellow: #FEC62E;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -15,6 +19,28 @@ h1{
   color: var(--black);
   margin-top: -30px;
   text-align: center;
+}
+
+h2{
+  color: var(--black);
+}
+
+.js{
+  width: 10%;
+  height: 10%;
+  border-radius: 20%;
+}
+
+.html{
+  width: 10%;
+  height: 10%;
+  border-radius: 20%;
+}
+
+.github{
+  width: 10%;
+  height: 10%;
+  border-radius: 20%;
 }
 
 header{
@@ -41,6 +67,7 @@ header label:hover{
   background-size: cover;
 }
 
+
 .fotoPerfil{
   height: 150px;
   width: 150px;
@@ -50,10 +77,10 @@ header label:hover{
   top: -35px;
   margin: auto;
   display: block;
+  border: 3px solid rgba(39, 39, 39, 0.3)
 }
 
 .acerca{
-  /* color: var(--white); */
   text-align: right;
   margin-left: auto;
 }
@@ -86,6 +113,10 @@ header label:hover{
   padding: 15px 20px;
   text-decoration: none;
   color: white;
+}
+
+.main{
+  text-align: center;
 }
 
 @media (max-width: 768px) {
