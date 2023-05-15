@@ -208,6 +208,10 @@ iframe{
   border: 5px solid green;
 }
 
+
+#color_tareas li a {
+  color:black;
+}
 @media (max-width: 768px) {
   
   main{
