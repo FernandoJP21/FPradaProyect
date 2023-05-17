@@ -67,18 +67,24 @@ header label:hover{
   display: flex;
   position: relative;
   width: 100%; 
-  height: 10vw; 
+  height: 5vw; 
   background: #1d1d21;
   z-index: auto;
 }
 
+.next{
+  width: 100%; 
+  height: 30vw; 
+  background: #1d1d21;
+}
+
 .fotoPerfil{
-  height: 16vw;
-  width: 16%;
+  height: 17vw;
+  width: 17%;
   border-radius: 50%;
   background-size: cover;
   position: absolute;
-  margin: 5% 70% 8%;
+  margin: 7% 73% 8%;
   display: block;
   border: 3px solid rgba(39, 39, 39, 0.3);
 }
@@ -111,6 +117,7 @@ header label:hover{
   list-style: none;
   padding: 0;
   display: flex;
+  margin-top: 2%;
 }
 
 .menu li{
@@ -141,7 +148,7 @@ header label:hover{
   text-align: center;
   margin: auto;
   background-color: rgb(60, 111, 214);
-  border-radius: 5%;
+  border-radius: 7%;
   color: white;
   z-index: 2;
   text-decoration: none;
@@ -184,12 +191,14 @@ header label:hover{
 
 
 .textoP{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style:inherit;
   position: relative;
-  font-size: 150%;
+  font-size: 180%;
   font-weight: bold;
   text-align: left;
   margin: auto;
-  margin-bottom: 3%;
+  margin-bottom: 5%;
 }
 
 main{
@@ -208,8 +217,8 @@ main{
 }
 
 #proyectosh1{
-  margin-top: 15%;
-  font-size: 230%;
+  font-size: 300%;
+  margin: 3% 1%;
 }
 
 iframe{
@@ -366,7 +375,8 @@ iframe{
   }
 
   #proyectosh1{
-    margin-top: 15%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 8%;
     font-size: 230%;
   }
 
@@ -377,6 +387,12 @@ iframe{
     /*Sólo para que se vea, ya que la dirección al parecer está mal*/
   }
   
+  .next{
+    margin-top: 3%;
+    width: 100%; 
+    height: 80vw; 
+    background: #1d1d21;
+  }
 
 }
 
