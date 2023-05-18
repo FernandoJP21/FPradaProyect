@@ -21,6 +21,17 @@ h1{
   text-align: center;
 }
 
+.h1Experiencia{
+  position: relative;
+    font-size: 250%;
+    margin: auto;
+    /* margin-top: -150%; */
+    margin-top: -35%;
+    margin-left: -70%;
+    padding: 0%;
+    color: white;
+}
+
 h2{
   margin-right: 40%;
   padding-left: 4%;
@@ -69,13 +80,36 @@ header label:hover{
   width: 100%; 
   height: 5vw; 
   background: #1d1d21;
-  z-index: auto;
 }
 
 .next{
+  display: flex;
+  position: relative;
   width: 100%; 
-  height: 30vw; 
+  height: 38vw; 
   background: #1d1d21;
+}
+
+.next-section{
+  margin: auto;
+  color: white;
+}
+
+.listaExperiencia{
+  margin: auto;
+  position: relative;
+  font-size: 150%;
+  padding: 0%;
+  color: white;
+  text-decoration: none;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-top: 2.5%;
+  text-align: left;
+}
+.olExperiencia{
+  margin-top: 2%;
+  margin-bottom: 1%;
 }
 
 .fotoPerfil{
@@ -148,7 +182,7 @@ header label:hover{
   text-align: center;
   margin: auto;
   background-color: rgb(60, 111, 214);
-  border-radius: 7%;
+  border-radius: 3%;
   color: white;
   z-index: 2;
   text-decoration: none;
@@ -172,7 +206,7 @@ header label:hover{
   text-align: center;
   margin: auto;
   background-color: rgb(37, 120, 54);
-  border-radius: 5%;
+  border-radius: 3%;
   color: white;
   z-index: 2;
   text-decoration: none;
@@ -233,31 +267,68 @@ iframe{
   color:black;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(16, 16, 70);    /* color of the scroll thumb */
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 30%;
+}
 @media (max-width: 768px) {
   
   main{
     margin: auto;
-  text-align: center;
+    text-align: center;
   }
-
   header{
     position: fixed;
     z-index: 1;
   }
+  .h1Experiencia{
+    position: relative;
+      font-size: 250%;
+      margin: auto;
+      margin-bottom: 7%;
+      padding: 0%;
+      color: white;
+  }
+  .next-section{
+    /* position: relative; */
+    margin: auto;
+    font-size: 70%;
+    margin-top: -70%;
+    padding: 0%;
+    color: white;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .listaExperiencia{
+    margin: auto;
+    position: relative;
+    font-size: 130%;
+    padding: 0%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  .olExperiencia{
+    padding: 0%;
 
+    /* margin: auto; */
+    margin-bottom: 2%;
+  }
   h2{
     margin-right: 27%;
     padding-left: 4%;
     color: var(--black);
     margin: auto;
   }
-  
-  p{
-    /* margin-right: %; */
-    /* margin-right: 150%; */
-    text-align: center;
-  }
-
   header label{
     display: block;
     width: 25px;
@@ -268,13 +339,11 @@ iframe{
     border-radius: 10%;
     background: rgba(62, 62, 62, 0.5);
   }
-
   .first-section{
     display: inline-block;
     margin: auto;
     margin-top: -50%;
   }
-
   .second-section{
     display: inline-block;
     margin-right: auto;
@@ -290,7 +359,6 @@ iframe{
     display: flex;
     flex-wrap: nowrap;
   }
-
   .fotoPerfil{
     position: relative;
     height: 40vw;
@@ -299,7 +367,6 @@ iframe{
     margin: auto;
     margin-top: 10%;
   }
-
   .hero{
     display: flex;
     position: relative;
@@ -307,7 +374,6 @@ iframe{
     height: 10vw; 
     background: #1d1d21;
   }
-
   .menu{
     position: fixed;
     background: rgba(0,0,0, 0.5);
@@ -359,15 +425,15 @@ iframe{
   }
 
   .textoP{
-    font-size: 90%;
+    font-size: 105%;
     font-weight: bold;
     text-align: center;
     margin: 5% 2%;
   }
-  
+
   .Saludo{
     position: relative;
-    font-size: 250%;
+    font-size: 230%;
     margin: auto;
     margin-top: 10%;
     margin-bottom: 30%;
@@ -388,10 +454,13 @@ iframe{
   }
   
   .next{
+    display: flex;
+    margin: auto;
     margin-top: 3%;
     width: 100%; 
     height: 80vw; 
     background: #1d1d21;
+    padding: 0%;
   }
 
 }
