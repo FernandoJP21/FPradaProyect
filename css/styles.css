@@ -1,26 +1,21 @@
-
 :root { 
   --white: #ffffff; 
   --grey: #808080; 
   --black: #212429; 
   --yellow: #FEC62E;
 }
-
 html{
   scroll-behavior: smooth;
 }
-
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
-
 h1{
   color: var(--black);
   margin-top: -30px;
   text-align: center;
 }
-
 .h1Experiencia{
   position: relative;
     font-size: 250%;
@@ -31,20 +26,17 @@ h1{
     padding: 0%;
     color: white;
 }
-
 h2{
   margin-right: 40%;
   padding-left: 4%;
   color: var(--black);
 }
-
 p{
   margin: auto;
   /* margin-right: 40%;
   padding-left: 4%; */
   margin: 0% 5% 12% 12%;
 }
-
 .first-section{
   font-family: 'Roboto', sans-serif;
   display: inline-block;
@@ -52,48 +44,42 @@ p{
   margin-bottom: 5%;
   margin-right: 35%;
 }
-
 .second-section{
   margin: auto;
   text-align: center;
 
 }
-
 header{
   position: fixed;
-  z-index: 1;
+  z-index: 2;
 }
-
 header label{
   display: none;
   border-right: 1px solid white;
 }
-
 header label:hover{
   cursor: pointer;
   background: rgba(0,0,0,0.3);
 }
-
 .hero{
   display: flex;
-  position: relative;
+  position: sticky;
+  top: 0;
   width: 100%; 
   height: 5vw; 
   background: #1d1d21;
+  z-index: 1;
 }
-
 .next{
   position: relative;
   width: 100%; 
   height: 40vw; 
   background: #1d1d21;
 }
-
 .next-section{
   margin: auto;
   color: white;
 }
-
 .listaExperiencia{
   margin: auto;
   position: relative;
@@ -108,7 +94,6 @@ header label:hover{
 .olExperiencia{
   margin-top: 1%;
 }
-
 .fotoPerfil{
   height: 17vw;
   width: 17%;
@@ -119,7 +104,6 @@ header label:hover{
   display: block;
   border: 3px solid rgba(39, 39, 39, 0.3);
 }
-
 .imgLenguajes{
   width: 25%;
   height: 25%;
@@ -129,20 +113,16 @@ header label:hover{
   display: flex;
   flex-wrap: nowrap;
 }
-
 .acerca{
   text-align: right;
   margin-left: auto;
 }
-
 .iconoMenu{
   width: 30px;
 }
-
 #btn-menu{
   display: none;
 }
-
 .menu ul{
   margin: 0;
   list-style: none;
@@ -150,15 +130,12 @@ header label:hover{
   display: flex;
   margin-top: 2%;
 }
-
 .menu li{
   flex-grow: 0.01;
 }
-
 .menu li:hover{
   background: rgba(0,0,0,0.3);
 }
-
 .menu li a{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 130%;
@@ -184,6 +161,7 @@ header label:hover{
   margin: auto;
   font-size: 150%;
   margin: 1% 1%;
+  z-index: 0;
 }
 .FP_HV:hover{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -206,6 +184,7 @@ header label:hover{
   margin: auto;
   font-size: 150%;
   margin: 1% 1%;
+  z-index: 0;
 }
 .FP_PROYECTS:hover{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -269,20 +248,15 @@ footer{
   border-top: 2px solid white;
   background: #292929;
   margin-top: 5vw;
+  text-align: center;
 }
 footer h1{
   margin: auto;
-  text-align: left;
   margin-left: 4.2%;
   margin-top: 1%;
   margin-bottom: 0.5%;
   color: white;
   font-size: 140%;
-}
-.footerContainer{
-  flex-wrap: nowrap;
-  width: 100%;
-  height: 100%;
 }
 #LinkedIn{
   position: relative;
@@ -301,14 +275,13 @@ footer h1{
 }
 
 @media (max-width: 768px) {
-  
   main{
     margin: auto;
     text-align: center;
   }
   header{
     position: fixed;
-    z-index: 1;
+    z-index: 3;
   }
   .h1Experiencia{
     position: relative;
@@ -404,20 +377,16 @@ footer h1{
   .menu ul{
     flex-direction: column;
   }
-
   .menu li{
     border-top: 1px solid rgb(0,0,0,0.1);
   }
-
   .menu li a{
     font-weight: bolder;
     color: var(--white);
   }
-
   #btn-menu:checked ~ .menu{
       margin: 0;
   }
-
   .FP_HV{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
@@ -429,7 +398,6 @@ footer h1{
     text-decoration: none;
     margin: auto;
   }
-
   .FP_PROYECTS{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
@@ -444,14 +412,12 @@ footer h1{
     margin: auto;
     font-size: 150%;
   }
-
   .textoP{
     font-size: 105%;
     font-weight: bold;
     text-align: center;
     margin: 5% 2%;
   }
-
   .Saludo{
     position: relative;
     font-size: 230%;
@@ -460,19 +426,16 @@ footer h1{
     margin-bottom: 30%;
     padding: 0%;
   }
-
   #proyectosh1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 8%;
     font-size: 230%;
   }
-
   iframe{
     margin: auto;
     width: 98%;
     height: 176vw;
   }
-  
   .next{
     display: flex;
     margin: auto;
@@ -482,7 +445,6 @@ footer h1{
     background: #1d1d21;
     padding: 0%;
   }
-
 }
 
 @media (width: 1024px) {
@@ -500,21 +462,18 @@ footer h1{
     padding: 0%;
     color: white;
 }
-
 .next{
   position: relative;
   width: 100%; 
   height: 42vw;
   background: #1d1d21;
 }
-
 .next-section{
   position: relative;
   bottom: 40vw;
   margin: auto;
   color: white;
 }
-
 .listaExperiencia{
   margin: auto;
   position: relative;
@@ -529,7 +488,6 @@ footer h1{
 .olExperiencia{
   margin-top: 1%;
 }
-
 footer{
   position: relative;
   width: 100%; 
