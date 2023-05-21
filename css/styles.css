@@ -102,7 +102,6 @@ header label:hover{
   color: white;
   text-decoration: none;
   margin-left: 2%;
-  margin-top: 2%;
   margin-top: 2.5%;
   text-align: left;
 }
@@ -168,11 +167,9 @@ header label:hover{
   text-decoration: none;
   color: white;
 }
-
 .main{
   text-align: center;
 }
-
 .FP_HV{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: relative;
@@ -188,7 +185,6 @@ header label:hover{
   font-size: 150%;
   margin: 1% 1%;
 }
-
 .FP_HV:hover{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   cursor: pointer;
@@ -196,7 +192,6 @@ header label:hover{
   background: rgba(138, 137, 137, 0.1);
   border: 1px solid rgb(60, 111, 214);
 }
-
 .FP_PROYECTS{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: relative;
@@ -212,7 +207,6 @@ header label:hover{
   font-size: 150%;
   margin: 1% 1%;
 }
-
 .FP_PROYECTS:hover{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   cursor: pointer;
@@ -220,8 +214,6 @@ header label:hover{
   background: rgba(138, 137, 137, 0.1);
   border: 1px solid rgb(37, 120, 54);
 }
-
-
 .textoP{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style:inherit;
@@ -232,12 +224,10 @@ header label:hover{
   margin: auto;
   margin-bottom: 5%;
 }
-
 main{
   margin: auto;
   text-align: center;
 }
-
 .Saludo{
   position: relative;
   font-size: 500%;
@@ -247,37 +237,69 @@ main{
   margin-bottom: 5%;
   padding: 0%; 
 }
-
 #proyectosh1{
   font-size: 300%;
   margin: 3% 1%;
 }
-
 iframe{
   margin: auto;
   width: 100%;
   height: 49vw;
-  /*Sólo para que se vea, ya que la dirección al parecer está mal*/
   border: 5px solid green;
 }
-
 #color_tareas li a {
   color:black;
 }
-
 body::-webkit-scrollbar {
-  width: 10px;               /* width of the entire scrollbar */
+  width: 10px;               
 }
-
 body::-webkit-scrollbar-track {
-  background: rgb(255, 255, 255);        /* color of the tracking area */
+  background: rgb(255, 255, 255);    
 }
-
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(16, 16, 70);    /* color of the scroll thumb */
+  background-color: rgb(16, 16, 70);
   border: 3px solid rgb(255, 255, 255);
   border-radius: 30%;
 }
+
+footer{
+  position: relative;
+  width: 100%; 
+  height: 8vw; 
+  border-top: 2px solid white;
+  background: #292929;
+  margin-top: 5vw;
+}
+footer h1{
+  margin: auto;
+  text-align: left;
+  margin-left: 4.2%;
+  margin-top: 1%;
+  margin-bottom: 0.5%;
+  color: white;
+  font-size: 140%;
+}
+.footerContainer{
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+}
+#LinkedIn{
+  position: relative;
+  margin: auto;
+  margin-left: 3.5%;
+  width: 3%;
+  height: 38%;
+  cursor: pointer;
+}
+#Github{
+  position: relative;
+  margin: auto;
+  width: 4%;
+  height: 40%;
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   
   main{
@@ -297,8 +319,9 @@ body::-webkit-scrollbar-thumb {
       color: white;
   }
   .next-section{
-    /* position: relative; */
+    position: relative;
     margin: auto;
+    bottom: 5vw;
     font-size: 70%;
     margin-top: -70%;
     padding: 0%;
@@ -448,7 +471,6 @@ body::-webkit-scrollbar-thumb {
     margin: auto;
     width: 98%;
     height: 176vw;
-    /*Sólo para que se vea, ya que la dirección al parecer está mal*/
   }
   
   .next{
@@ -463,3 +485,82 @@ body::-webkit-scrollbar-thumb {
 
 }
 
+@media (width: 1024px) {
+  main{
+    margin: auto;
+    text-align: center;
+    max-height: 900px;
+  }
+.h1Experiencia{
+  position: relative;
+    font-size: 250%;
+    margin: auto;
+    /* margin-top: -28%; */
+    margin-left: -55%;
+    padding: 0%;
+    color: white;
+}
+
+.next{
+  position: relative;
+  width: 100%; 
+  height: 42vw;
+  background: #1d1d21;
+}
+
+.next-section{
+  position: relative;
+  bottom: 40vw;
+  margin: auto;
+  color: white;
+}
+
+.listaExperiencia{
+  margin: auto;
+  position: relative;
+  font-size: 150%;
+  padding: 0%;
+  color: white;
+  text-decoration: none;
+  margin-left: 2%;
+  margin-top: 2%;
+  text-align: left;
+}
+.olExperiencia{
+  margin-top: 1%;
+}
+
+footer{
+  position: relative;
+  width: 100%; 
+  height: 8vw; 
+  border-top: 2px solid white;
+  background: #292929;
+  margin-top: 0;
+}
+footer h1{
+  margin: auto;
+  position: relative;
+  text-align: left;
+  margin-left: 4.2%;
+  margin-top: 1%;
+  margin-bottom: 0.5%;
+  color: white;
+  font-size: 140%;
+}
+#LinkedIn{
+  position: relative;
+  margin: auto;
+  margin-left: 3.5%;
+  width: 3%;
+  height: 38%;
+  cursor: pointer;
+}
+#Github{
+  position: relative;
+  margin: auto;
+  width: 4%;
+  height: 40%;
+  cursor: pointer;
+}
+}
