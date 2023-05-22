@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Nunito:wght@400;600;700&family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Nunito:wght@400;600;700&family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/cards.css">
   <title>Home</title>
 </head>
+
 <body>
   <div class="menu"></div>
   <header>
     <input type="checkbox" id="btn-menu">
-    <label for="btn-menu"><img class="iconoMenu"src="images/iconomenu2.png" alt="Menu"></label>
+    <label for="btn-menu"><img class="iconoMenu" src="images/iconomenu2.png" alt="Menu"></label>
     <nav class="menu">
       <ul>
         <li><a href="index.html">Inicio</a></li>
@@ -28,45 +32,71 @@
   <div class="hero"></div>
   <img class="fotoPerfil" src="images/perfmom.webp" alt="foto perfil" title="Foto de perfil">
   <main>
-    <h2 class="Saludo">{ HOLA, MI NOMBRE ES 
-      <font color="#0F52BA">FERNANDO</font> }</h2>
+    <h2 class="Saludo">{ HOLA, MI NOMBRE ES
+      <font color="#0F52BA">FERNANDO</font> }
+    </h2>
     <section class="first-section">
       <p class="textoP">¡Esto es quien soy y lo que me gusta hacer!</p>
-        <a class="FP_HV" href="Files/FernandoPrada-HV.pdf" download="FernandoPrada-HV.pdf">Hoja de Vida</a>
-        <a class="FP_PROYECTS" href="Views\Proyects.html" >Mis proyectos</a>
-    </section>
-      
-    
-    <div class="next"></div>
-    <section class="next-section">  
-        <h1 class="h1Experiencia">Experiencia laboral</h1>
-        <ul class="listaExperiencia">
-          <ol class="olExperiencia"><font color="#A3A3B1">Empresa: </font>Sumitemp - Sistran Colombia</ol>
-          <ol class="olExperiencia"><font color="#A3A3B1">Cargo: </font> Programador</ol>
-          <ol class="olExperiencia"><font color="#A3A3B1">Duración: </font> Agosto 2022 - Marzo 2023</ol>
-        </ul>
-        <!-- <p class="textoExp">Mis funciones en la empresa Sistran Colombia fueron:</p> -->
-        <ul class="listaExperiencia">
-          <ol><font color="#A3A3B1">Mis funciones fueron:</font></ol>
-          <ol class="olExperiencia">Automatizaciones con Azure DevOps</ol>
-          <ol class="olExperiencia">Resolución de Bugs</ol>
-          <ol class="olExperiencia">Implementación nuevas funcionalidades</ol>
-          <ol class="olExperiencia">Soporte Git - Github</ol>
-        </ul>
+      <a class="FP_HV" href="Files/FernandoPrada-HV.pdf" download="FernandoPrada-HV.pdf">Hoja de Vida</a>
+      <a class="FP_PROYECTS" href="Views\Proyects.html">Mis proyectos</a>
     </section>
 
+    <div class="next">
+      <div class="container__card">
+        <div class="card c1">
+          <div class="icon">
+            <h1>Experiencia Laboral</h1>
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="info__description">
+            <p>Tengo 7 meses de experiencia laboral en desarrollo mis funciones
+               fueron realización de automatizaciones con AzureDevops, mediante PipeLines CI/CD.
+               Realicé funciones de resolución de bugs e implementación de nuevas funcionalidades.
+            </p>
+            <input type="button" value="Leer Más">
+          </div>
+        </div>
+
+        <div class="card c2">
+          <div class="icon">
+            <h1>Lenguajes de Programación</h1>
+            <i class="fab fa-css3"></i>
+          </div>
+          <div class="info__description">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, repellendus dolor dolorem voluptate aut
+              expedita doloribus molestias modi libero excepturi cum perferendis laboriosam praesentium provident
+              suscipit, eius impedit quidem magnam ipsa similique necessitatibus nam delectus nesciunt magni! Temporibus
+              autem, reprehenderit amet quidem aliquid architecto, blanditiis, neque quam asperiores eum enim.</p>
+            <input type="button" value="Leer Más">
+          </div>
+        </div>
+
+        <div class="card c3">
+          <div class="icon">
+            <h1>Acerca de mi</h1>
+            <i class="fab fa-js-square"></i>
+          </div>
+          <div class="info__description">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, repellendus dolor dolorem voluptate aut
+              expedita doloribus molestias modi libero excepturi cum perferendis laboriosam praesentium provident
+              suscipit, eius impedit quidem magnam ipsa similique necessitatibus nam delectus nesciunt magni! Temporibus
+              autem, reprehenderit amet quidem aliquid architecto, blanditiis, neque quam asperiores eum enim.</p>
+            <input type="button" value="Leer Más">
+          </div>
+        </div>
+      </div>
+    </div>
     <section class="LenguajesExperiencia">
-
-
     </section>
-    </main>  
-    <footer>
-      <h1>Fernando J. Prada</h1>
-        <a href="https://www.linkedin.com/in/fernandoprada22/" target="_blank"><img id="LinkedIn" src="images/linkedin.png" alt="LinkedIn"></a>
-        <a href="https://github.com/FernandoJP21?tab=repositories" target="_blank"><img id="Github" src="images/github2.png" alt="LinkedIn"></a>
-      </footer>
+
+  </main>
+  <footer>
+    <h1>Fernando J. Prada</h1>
+    <a href="https://www.linkedin.com/in/fernandoprada22/" target="_blank"><img id="LinkedIn" src="images/linkedin.png"
+        alt="LinkedIn"></a>
+    <a href="https://github.com/FernandoJP21?tab=repositories" target="_blank"><img id="Github" src="images/github2.png"
+        alt="LinkedIn"></a>
+  </footer>
 </body>
+
 </html>
-
-
-
